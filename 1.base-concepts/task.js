@@ -10,6 +10,7 @@ function solveEquation(a, b, c) {
  else if (D === 0) {
     arr[0] = -b / (2 * a);
   }
+  
   return arr;
 }
 
